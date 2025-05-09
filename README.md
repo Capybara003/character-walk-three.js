@@ -31,11 +31,12 @@ Experience the game: [https://character-walk-threejs.vercel.app/](https://charac
 
 1. **Clone the repository**:
 
-   ```bash
-   git clone https://github.com/your-username/character-walk-threejs.git
-   cd character-walk-threejs
-    ```
+```bash
+git clone https://github.com/your-username/character-walk-threejs.git
+cd character-walk-threejs
+ ```
 2. **Install dependencies:**
+   
   ```bash
   npm install
   # or
@@ -44,11 +45,13 @@ Experience the game: [https://character-walk-threejs.vercel.app/](https://charac
 3. **Configure Environment Variables:**
 
 Create a .env.local file in the root directory and add the following variables:
+
   ```
   NEXT_PUBLIC_CONTRACT_ADDRESS=your_smart_contract_address
   NEXT_PUBLIC_INFURA_ID=your_infura_project_id
   ```
 4. **Run the development server:**
+   
 ```bash
 npm run dev
 # or
