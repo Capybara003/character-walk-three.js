@@ -44,7 +44,7 @@ Experience the game: [https://character-walk-threejs.vercel.app/](https://charac
 3. **Configure Environment Variables:**
 
 Create a .env.local file in the root directory and add the following variables:
-  ```bash
+  ```
   NEXT_PUBLIC_CONTRACT_ADDRESS=your_smart_contract_address
   NEXT_PUBLIC_INFURA_ID=your_infura_project_id
   ```
@@ -57,19 +57,19 @@ Create a .env.local file in the root directory and add the following variables:
 5. **Access the application:**
 
 Open http://localhost:3000 in your browser.
-##⚙️ Configuration
+## ⚙️ Configuration
 Smart Contract Deployment
 Deploy your Solidity smart contract to the Ethereum network using tools like Remix or Hardhat. Ensure the contract address is correctly set in the .env.local file.
 
-###Web3 Integration
+### Web3 Integration
 The application uses Web3.js to interact with the Ethereum blockchain. Ensure your wallet is connected and configured to the correct network.
 
-##📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-##🤝 Acknowledgements
--Three.js for the 3D rendering library.
+## 🤝 Acknowledgements
+- Three.js for the 3D rendering library.
 
--Ethereum for the blockchain platform.
+- Ethereum for the blockchain platform.
 
--Web3.js for blockchain interactions.
+- Web3.js for blockchain interactions.
