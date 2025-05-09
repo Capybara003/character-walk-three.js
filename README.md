@@ -50,8 +50,9 @@ Create a .env.local file in the root directory and add the following variables:
   ```
 4. **Run the development server:**
    ```bash
-  NEXT_PUBLIC_CONTRACT_ADDRESS=your_smart_contract_address
-  NEXT_PUBLIC_INFURA_ID=your_infura_project_id
+  npm run dev
+   # or
+   yarn dev
   ```
 5. **Access the application:**
 
