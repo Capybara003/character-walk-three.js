@@ -34,7 +34,7 @@ Experience the game: [https://character-walk-threejs.vercel.app/](https://charac
    ```bash
    git clone https://github.com/your-username/character-walk-threejs.git
    cd character-walk-threejs
-  ```
+    ```
 2. **Install dependencies:**
   ```bash
   npm install
@@ -49,11 +49,11 @@ Create a .env.local file in the root directory and add the following variables:
   NEXT_PUBLIC_INFURA_ID=your_infura_project_id
   ```
 4. **Run the development server:**
-   ```bash
-  npm run dev
-   # or
-   yarn dev
-  ```
+```bash
+npm run dev
+# or
+yarn dev
+```
 5. **Access the application:**
 
 Open http://localhost:3000 in your browser.
